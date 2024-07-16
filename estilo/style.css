@@ -25,6 +25,8 @@ section#login{
     left: 50%;
 
     transform: translate(-50%,-50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 
     background-color: white;
     width: 250px;
@@ -37,7 +39,7 @@ section#login{
 div#foto{
     display: block;
     background-color: #5f2c82;
-    background-image: url(../imagens/pexels-sean-whang-25006-804269\ \(2\).jpg);
+    background-image: url(../imagens/pexels-sean-whang-25006-804269\ \(1\).jpg);
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
