@@ -23,18 +23,17 @@ section#login{
 
     top: 50%;
     left: 50%;
-
-    transform: translate(-50%,-50%);
-    transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
-
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
-    
+
+
+    transform: translate(-50%,-50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;    
 }
 div#foto{
     display: block;
@@ -65,6 +64,7 @@ div.campo{
     height: 40px;
     width: 100%;
     margin: 5px 0px;
+ 
 }
 div.campo span{
     color: #ffffff;
@@ -77,11 +77,12 @@ div.campo input{
     height: 100%;
     border-radius: 5px;
     border: 0px;
-    padding: 4px;
+    padding: 5px;
     width:calc(100% - 45px);
     margin: auto;
+
+
     transform: translateY(-39%);
-    
 }
 label{
     display: none;
